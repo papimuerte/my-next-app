@@ -4,11 +4,11 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        
+        "--- dev options ---": "",
         "dev": "next dev",
-        
-        
-        
+        "--- codegen ---": "",
+        "graphql:schema:cc": "graphql-codegen -c codegen-cc.yml",
+        "--- prod options ---": "",
         "build": "next build",
         "start": "next start"
     },
